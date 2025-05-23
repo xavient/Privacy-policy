@@ -3,211 +3,189 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Employee Activity Monitor</title>
+    <title>Privacy Policy - Employee Activity Monitor</title>
     <style>
       body {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f2f4f7;
+        color: #333;
         margin: 0;
         padding: 0;
-        background: #f4f6f9;
-        color: #333;
       }
 
-      header {
-        background-color: #003366;
-        color: white;
-        padding: 20px;
+      .container {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 30px;
+        background: white;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+
+      h1 {
+        color: #1a237e;
+        font-size: 2em;
+        margin-bottom: 10px;
         text-align: center;
       }
 
-      main {
-        max-width: 900px;
-        margin: 30px auto;
-        padding: 20px;
-        background: white;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      h2 {
+        color: #3949ab;
+        font-size: 1.3em;
+        margin-top: 30px;
+        border-left: 4px solid #3949ab;
+        padding-left: 10px;
       }
 
-      h1,
-      h2,
-      h3 {
-        color: #003366;
+      p {
+        line-height: 1.6;
+        margin: 10px 0;
       }
 
       ul {
-        list-style-type: none;
+        list-style: none;
         padding-left: 0;
       }
 
+      ul li {
+        margin: 6px 0;
+        padding-left: 20px;
+        position: relative;
+      }
+
       ul li::before {
-        content: "✔️ ";
-        margin-right: 8px;
+        content: "🔹";
+        position: absolute;
+        left: 0;
       }
 
-      .section {
+      .email {
+        font-weight: bold;
+        color: #1e88e5;
+      }
+
+      .last-updated {
+        text-align: center;
         margin-bottom: 30px;
-      }
-
-      .disclaimer,
-      .permissions,
-      .privacy-policy {
-        background: #f9f9f9;
-        padding: 15px;
-        border-left: 5px solid #003366;
+        font-style: italic;
+        color: #666;
       }
 
       footer {
         text-align: center;
+        margin-top: 40px;
         font-size: 0.9em;
-        color: #888;
-        padding: 20px 0;
+        color: #aaa;
       }
 
-      code {
-        background: #eee;
-        padding: 2px 6px;
-        border-radius: 4px;
-        font-family: monospace;
+      @media (max-width: 600px) {
+        .container {
+          padding: 20px;
+        }
+
+        h1 {
+          font-size: 1.6em;
+        }
       }
     </style>
   </head>
   <body>
-    <header>
-      <h1>📱 Employee Activity Monitor</h1>
-      <p>Enterprise-grade employee productivity and compliance tracking</p>
-    </header>
+    <div class="container">
+      <h1>📄 Privacy Policy for Employee Activity Monitor</h1>
+      <div class="last-updated">Last Updated: 23 May 2025</div>
 
-    <main>
-      <section class="section">
-        <h2>📋 Short Description</h2>
-        <p>
-          Track device activity and capture periodic screenshots for employee
-          productivity monitoring.
-        </p>
-      </section>
+      <h2>1️⃣ Introduction</h2>
+      <p>
+        Welcome to Employee Activity Monitor. This Privacy Policy describes how
+        we collect, use, disclose, and protect information when you use our
+        application on company-managed Android devices. This app is intended for
+        use on company-owned devices only and in accordance with applicable
+        company policies and employee agreements.
+      </p>
 
-      <section class="section">
-        <h2>📝 Full Description</h2>
-        <p>
-          Employee Activity Monitor is a powerful enterprise-grade Android
-          application designed for organizations to securely track and manage
-          employee device usage during work hours. The app captures device
-          screenshots at regular intervals and logs key activity metrics,
-          helping businesses maintain productivity and compliance standards.
-        </p>
-        <h3>Key Features:</h3>
-        <ul>
-          <li>📸 Capture screenshots at defined time intervals.</li>
-          <li>📱 Track application usage history.</li>
-          <li>
-            ⌨️ Monitor typing activity (for approved enterprise use only).
-          </li>
-          <li>📊 Generate device activity reports.</li>
-          <li>🔒 Secure data storage and encrypted transfer.</li>
-          <li>🛠️ Customizable monitoring settings via admin dashboard.</li>
-        </ul>
-      </section>
+      <h2>2️⃣ Information We Collect</h2>
+      <p>
+        When installed and operational, the application may collect the
+        following types of information:
+      </p>
+      <ul>
+        <li>
+          <strong>Screenshots:</strong> Captured at regular intervals for
+          monitoring purposes.
+        </li>
+        <li>
+          <strong>App Usage Data:</strong> Details of apps opened, timestamps,
+          and duration.
+        </li>
+        <li>
+          <strong>Typing Activity (Key Events):</strong> Input logs for
+          enterprise use only (no personal content).
+        </li>
+        <li>
+          <strong>Device Information:</strong> Model, OS version, and device
+          identifiers.
+        </li>
+        <li>
+          <strong>Network Information:</strong> Device connectivity status.
+        </li>
+        <li>
+          <strong>Other Logs:</strong> System logs for auditing and security.
+        </li>
+      </ul>
 
-      <section class="disclaimer">
-        <strong>Disclaimer:</strong> This app is intended for enterprise use on
-        company-owned devices only, with employee consent and as per company
-        policy. Unauthorized surveillance of personal devices is strictly
-        prohibited.
-      </section>
+      <h2>3️⃣ How We Use This Information</h2>
+      <ul>
+        <li>Monitor employee productivity and ensure compliance.</li>
+        <li>Generate reports for management review.</li>
+        <li>Maintain device security and prevent misuse.</li>
+        <li>Support audits and data protection measures.</li>
+        <li>Enhance app functionality and performance.</li>
+      </ul>
 
-      <section class="section">
-        <h2>📃 App Category</h2>
-        <p>Business / Productivity</p>
+      <h2>4️⃣ Data Sharing and Disclosure</h2>
+      <p>We do not sell or trade your information. Data may be shared with:</p>
+      <ul>
+        <li>Authorized company personnel.</li>
+        <li>Law enforcement if legally required.</li>
+        <li>Trusted service providers under strict confidentiality.</li>
+      </ul>
 
-        <h2>📜 Content Rating</h2>
-        <p>18+ (Mature) — due to monitoring features.</p>
-      </section>
+      <h2>5️⃣ Data Security</h2>
+      <ul>
+        <li>Encryption during transfer and at rest.</li>
+        <li>Secure enterprise-managed storage.</li>
+        <li>Restricted access for authorized personnel.</li>
+        <li>Routine audits and security checks.</li>
+      </ul>
 
-      <section class="permissions">
-        <h2>⚙️ Permissions Declaration (in Play Console)</h2>
-        <p>You’ll need to declare and justify permissions like:</p>
-        <ul>
-          <li><code>READ_LOGS</code></li>
-          <li><code>WRITE_EXTERNAL_STORAGE</code></li>
-          <li><code>SYSTEM_ALERT_WINDOW</code></li>
-          <li><code>PACKAGE_USAGE_STATS</code></li>
-          <li><code>ACCESSIBILITY_SERVICE</code> (for key events tracking)</li>
-        </ul>
-      </section>
+      <h2>6️⃣ Employee Consent</h2>
+      <p>
+        Use of this app requires employee consent through employment agreements
+        or company IT policies. Employees are informed about monitoring features
+        before device assignment.
+      </p>
 
-      <section class="privacy-policy">
-        <h2>📄 Privacy Policy for Employee Activity Monitor</h2>
-        <p>
-          <strong>Effective Date:</strong> [Insert Date]<br />
-          <strong>Last Updated:</strong> [Insert Date]
-        </p>
+      <h2>7️⃣ Data Retention</h2>
+      <p>
+        Data is retained per company retention policy and deleted securely after
+        its defined use, unless required for compliance.
+      </p>
 
-        <h3>1️⃣ Introduction</h3>
-        <p>
-          Welcome to Employee Activity Monitor. This Privacy Policy describes
-          how we collect, use, disclose, and protect information when you use
-          our application on company-managed Android devices.
-        </p>
+      <h2>8️⃣ User Rights</h2>
+      <p>Employees have the right to:</p>
+      <ul>
+        <li>Request access to their personal data.</li>
+        <li>Request corrections to inaccurate data.</li>
+        <li>Raise objections or concerns regarding data collection.</li>
+      </ul>
+      <p>Requests should be directed to your IT or HR department.</p>
 
-        <h3>2️⃣ Information We Collect</h3>
-        <ul>
-          <li>Screenshots</li>
-          <li>App Usage Data</li>
-          <li>Typing Activity (Key Events)</li>
-          <li>Device Information</li>
-          <li>Network Information</li>
-          <li>Other Logs</li>
-        </ul>
-
-        <h3>3️⃣ How We Use This Information</h3>
-        <ul>
-          <li>Monitor productivity and ensure compliance</li>
-          <li>Generate management reports</li>
-          <li>Maintain security and prevent unauthorized use</li>
-          <li>Support auditing and security</li>
-          <li>Improve functionality</li>
-        </ul>
-
-        <h3>4️⃣ Data Sharing and Disclosure</h3>
-        <p>
-          Data may be shared with authorized personnel, law enforcement, or
-          third parties under confidentiality agreements as needed.
-        </p>
-
-        <h3>5️⃣ Data Security</h3>
-        <ul>
-          <li>Encryption in transit and at rest</li>
-          <li>Secure enterprise server storage</li>
-          <li>Access restricted to authorized personnel</li>
-          <li>Regular audits</li>
-        </ul>
-
-        <h3>6️⃣ Employee Consent</h3>
-        <p>
-          Use of the app is conditional upon employee consent as per
-          organizational policy.
-        </p>
-
-        <h3>7️⃣ Data Retention</h3>
-        <p>
-          Data is retained based on company policy and deleted when no longer
-          required.
-        </p>
-
-        <h3>8️⃣ User Rights</h3>
-        <p>
-          Employees can request access, correction, or raise concerns about
-          their data.
-        </p>
-
-        <h3>9️⃣ Contact Information</h3>
-        <p>
-          For questions or concerns, please contact your company's IT or HR
-          department.
-        </p>
-      </section>
-    </main>
+      <h2>9️⃣ Contact Information</h2>
+      <p>
+        For any questions or concerns about this Privacy Policy, please contact:
+        <span class="email">rohit.bhadouriya@telusdigital.com</span>
+      </p>
+    </div>
 
     <footer>&copy; 2025 Employee Activity Monitor. All rights reserved.</footer>
   </body>
